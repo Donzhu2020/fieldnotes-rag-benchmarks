@@ -1,0 +1,23 @@
+{
+  "historical_only_cutoff_removed_from_app": true,
+  "variant": "float32 original matrix",
+  "queries": 100,
+  "thresholded_cosine_minimum": 0.6,
+  "unthresholded_cosine_minimum": -1.0,
+  "hit_at_5_thresholded": 41,
+  "hit_at_5_unthresholded": 46,
+  "hit_at_10_thresholded": 54,
+  "hit_at_10_unthresholded": 64,
+  "queries_with_no_qrels_positive_in_unthresholded_top10": 36,
+  "thresholded_result_count_distribution": {
+    "fewer_than_5": 31,
+    "5_to_9": 20,
+    "10": 49
+  },
+  "qrels_query_coverage_in_first_1m": {
+    "eligible_qids": 1780,
+    "qrels_qids_total": 55578,
+    "fraction": 0.0320270610673288
+  },
+  "method": "Repeated exact full scans against the cached 100 query vectors; only the existing 0.60 score filter was disabled. Same selected queries and qrels as diagnostics/memory-quality-100-results.json."
+}

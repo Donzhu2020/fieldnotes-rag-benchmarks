@@ -1,0 +1,1517 @@
+{
+  "method": "Exact NumPy float32 full scan; qrels-positive rank counts all greater scores and preceding row ties; same selected 100 queries; no threshold.",
+  "hit_at_k": {
+    "1": 19,
+    "5": 49,
+    "10": 65,
+    "20": 75,
+    "50": 88,
+    "100": 92,
+    "1000": 98
+  },
+  "cases": [
+    {
+      "qid": "903219",
+      "query": "what the average cost to repair a pipe",
+      "positive_pids": [
+        "394499"
+      ],
+      "best_positive_rank": 69,
+      "top5_ids": [
+        "352103",
+        "385066",
+        "348180",
+        "352112",
+        "385065"
+      ]
+    },
+    {
+      "qid": "523012",
+      "query": "total sugars per day",
+      "positive_pids": [
+        "133113"
+      ],
+      "best_positive_rank": 150,
+      "top5_ids": [
+        "935777",
+        "387806",
+        "896039",
+        "133116",
+        "429604"
+      ]
+    },
+    {
+      "qid": "791407",
+      "query": "what is revenue minus variable cost",
+      "positive_pids": [
+        "619283"
+      ],
+      "best_positive_rank": 2417,
+      "top5_ids": [
+        "874218",
+        "874212",
+        "874219",
+        "874216",
+        "208762"
+      ]
+    },
+    {
+      "qid": "566179",
+      "query": "what are standard interior door sizes",
+      "positive_pids": [
+        "505334"
+      ],
+      "best_positive_rank": 5,
+      "top5_ids": [
+        "864928",
+        "505337",
+        "864932",
+        "864934",
+        "505334"
+      ]
+    },
+    {
+      "qid": "807562",
+      "query": "what is the average wpm typing",
+      "positive_pids": [
+        "225368"
+      ],
+      "best_positive_rank": 21,
+      "top5_ids": [
+        "676709",
+        "367525",
+        "676706",
+        "686328",
+        "813164"
+      ]
+    },
+    {
+      "qid": "875319",
+      "query": "what makes blood pressure lower than normal",
+      "positive_pids": [
+        "674463"
+      ],
+      "best_positive_rank": 671,
+      "top5_ids": [
+        "535377",
+        "239253",
+        "525267",
+        "39757",
+        "63297"
+      ]
+    },
+    {
+      "qid": "660807",
+      "query": "what foods are a common source of potassium",
+      "positive_pids": [
+        "749504"
+      ],
+      "best_positive_rank": 226,
+      "top5_ids": [
+        "128901",
+        "789210",
+        "323000",
+        "64330",
+        "73367"
+      ]
+    },
+    {
+      "qid": "157128",
+      "query": "do i pay tax on my social security",
+      "positive_pids": [
+        "212545"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "111495",
+        "212545",
+        "199333",
+        "84037",
+        "77765"
+      ]
+    },
+    {
+      "qid": "981400",
+      "query": "where is disney",
+      "positive_pids": [
+        "77078"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "77078",
+        "92090",
+        "315754",
+        "137581",
+        "925355"
+      ]
+    },
+    {
+      "qid": "1012151",
+      "query": "which is the longest vein in the body?",
+      "positive_pids": [
+        "435952"
+      ],
+      "best_positive_rank": 6,
+      "top5_ids": [
+        "208934",
+        "208930",
+        "748748",
+        "809200",
+        "1756"
+      ]
+    },
+    {
+      "qid": "213548",
+      "query": "how did harriet tubman help the slaves ?",
+      "positive_pids": [
+        "617524"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "269532",
+        "277491",
+        "617524",
+        "277495",
+        "389832"
+      ]
+    },
+    {
+      "qid": "601402",
+      "query": "what could cause redness rash bottom legs",
+      "positive_pids": [
+        "735195"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "368757",
+        "116119",
+        "735195",
+        "368754",
+        "465853"
+      ]
+    },
+    {
+      "qid": "763878",
+      "query": "what is kyc?",
+      "positive_pids": [
+        "11461"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "11461",
+        "11453",
+        "11452",
+        "11459",
+        "11455"
+      ]
+    },
+    {
+      "qid": "464935",
+      "query": "non aggregate definition",
+      "positive_pids": [
+        "458748"
+      ],
+      "best_positive_rank": 21,
+      "top5_ids": [
+        "466893",
+        "917948",
+        "917949",
+        "918191",
+        "183762"
+      ]
+    },
+    {
+      "qid": "326706",
+      "query": "how much protein per day is okay",
+      "positive_pids": [
+        "538123"
+      ],
+      "best_positive_rank": 5,
+      "top5_ids": [
+        "739643",
+        "538126",
+        "101306",
+        "325823",
+        "538123"
+      ]
+    },
+    {
+      "qid": "994764",
+      "query": "where is the brain located",
+      "positive_pids": [
+        "59266"
+      ],
+      "best_positive_rank": 761,
+      "top5_ids": [
+        "348656",
+        "578391",
+        "843580",
+        "588258",
+        "769985"
+      ]
+    },
+    {
+      "qid": "1044460",
+      "query": "what is the average cost of a movie ticket",
+      "positive_pids": [
+        "349063"
+      ],
+      "best_positive_rank": 9,
+      "top5_ids": [
+        "666319",
+        "349056",
+        "666317",
+        "349058",
+        "349060"
+      ]
+    },
+    {
+      "qid": "246712",
+      "query": "how long do state tax liens stay on your record",
+      "positive_pids": [
+        "764860"
+      ],
+      "best_positive_rank": 9,
+      "top5_ids": [
+        "443572",
+        "764864",
+        "764866",
+        "155618",
+        "513871"
+      ]
+    },
+    {
+      "qid": "659033",
+      "query": "what factors will influence deep water currents",
+      "positive_pids": [
+        "976001"
+      ],
+      "best_positive_rank": 30,
+      "top5_ids": [
+        "516769",
+        "975995",
+        "754242",
+        "564046",
+        "483449"
+      ]
+    },
+    {
+      "qid": "1041050",
+      "query": "who is the most flexible person in the world?",
+      "positive_pids": [
+        "690939"
+      ],
+      "best_positive_rank": 5,
+      "top5_ids": [
+        "690938",
+        "690943",
+        "690940",
+        "690944",
+        "690939"
+      ]
+    },
+    {
+      "qid": "744891",
+      "query": "what is espresso",
+      "positive_pids": [
+        "581293"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "747274",
+        "727803",
+        "581293",
+        "282141",
+        "727796"
+      ]
+    },
+    {
+      "qid": "728460",
+      "query": "what is causing green slim on bowel movements",
+      "positive_pids": [
+        "324011"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "324016",
+        "324011",
+        "334146",
+        "723591",
+        "263875"
+      ]
+    },
+    {
+      "qid": "1101384",
+      "query": "ancillary provider",
+      "positive_pids": [
+        "318608"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "318608",
+        "152825",
+        "486975",
+        "128448",
+        "318609"
+      ]
+    },
+    {
+      "qid": "817229",
+      "query": "what is the difference between condensation and precipitation",
+      "positive_pids": [
+        "810621"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "634409",
+        "634402",
+        "810621",
+        "156230",
+        "457843"
+      ]
+    },
+    {
+      "qid": "251402",
+      "query": "how long does cooked turkey last",
+      "positive_pids": [
+        "328818"
+      ],
+      "best_positive_rank": 15,
+      "top5_ids": [
+        "278037",
+        "115437",
+        "278030",
+        "278032",
+        "499934"
+      ]
+    },
+    {
+      "qid": "1017886",
+      "query": "which president is credited with inspiring the maxwell house slogan, good to the last drop",
+      "positive_pids": [
+        "5975"
+      ],
+      "best_positive_rank": 6,
+      "top5_ids": [
+        "5970",
+        "5974",
+        "5969",
+        "5977",
+        "5976"
+      ]
+    },
+    {
+      "qid": "657204",
+      "query": "what empires did alexander conquer",
+      "positive_pids": [
+        "570021"
+      ],
+      "best_positive_rank": 21,
+      "top5_ids": [
+        "954513",
+        "785975",
+        "101876",
+        "670981",
+        "31802"
+      ]
+    },
+    {
+      "qid": "527158",
+      "query": "types of crown material",
+      "positive_pids": [
+        "553068"
+      ],
+      "best_positive_rank": 191,
+      "top5_ids": [
+        "837941",
+        "837937",
+        "185835",
+        "185836",
+        "553070"
+      ]
+    },
+    {
+      "qid": "553977",
+      "query": "what antibiotic is used for gum abscess",
+      "positive_pids": [
+        "93569"
+      ],
+      "best_positive_rank": 5,
+      "top5_ids": [
+        "123596",
+        "123599",
+        "365951",
+        "124644",
+        "93569"
+      ]
+    },
+    {
+      "qid": "293401",
+      "query": "how many players on a basketball team play at once",
+      "positive_pids": [
+        "366583"
+      ],
+      "best_positive_rank": 22,
+      "top5_ids": [
+        "746922",
+        "453654",
+        "512906",
+        "453649",
+        "757555"
+      ]
+    },
+    {
+      "qid": "269505",
+      "query": "how long to cook boneless chicken thighs and legs",
+      "positive_pids": [
+        "644757"
+      ],
+      "best_positive_rank": 4,
+      "top5_ids": [
+        "954945",
+        "954948",
+        "443902",
+        "644757",
+        "527634"
+      ]
+    },
+    {
+      "qid": "927989",
+      "query": "what year was metallica release their first album",
+      "positive_pids": [
+        "60175"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "60168",
+        "60175",
+        "33237",
+        "60169",
+        "60171"
+      ]
+    },
+    {
+      "qid": "596236",
+      "query": "what city is vine grove, ky in",
+      "positive_pids": [
+        "665439"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "665439",
+        "665444",
+        "665443",
+        "665445",
+        "665442"
+      ]
+    },
+    {
+      "qid": "588754",
+      "query": "what causes hot flashes?",
+      "positive_pids": [
+        "269490"
+      ],
+      "best_positive_rank": 74,
+      "top5_ids": [
+        "71367",
+        "304876",
+        "94408",
+        "356175",
+        "71371"
+      ]
+    },
+    {
+      "qid": "1046631",
+      "query": "who played evie in descendants",
+      "positive_pids": [
+        "589358"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "589354",
+        "589358",
+        "637604",
+        "637605",
+        "573132"
+      ]
+    },
+    {
+      "qid": "1004976",
+      "query": "when does credit report derogatory on",
+      "positive_pids": [
+        "102322"
+      ],
+      "best_positive_rank": 11,
+      "top5_ids": [
+        "860353",
+        "673346",
+        "860348",
+        "102324",
+        "673349"
+      ]
+    },
+    {
+      "qid": "177192",
+      "query": "earliest pregnancy symptoms",
+      "positive_pids": [
+        "189490"
+      ],
+      "best_positive_rank": 45,
+      "top5_ids": [
+        "177132",
+        "866736",
+        "821293",
+        "669607",
+        "313038"
+      ]
+    },
+    {
+      "qid": "171740",
+      "query": "does stinging nettle root work",
+      "positive_pids": [
+        "114890"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "114887",
+        "114890",
+        "821168",
+        "500132",
+        "943926"
+      ]
+    },
+    {
+      "qid": "517658",
+      "query": "the most populous religion in the world",
+      "positive_pids": [
+        "358513"
+      ],
+      "best_positive_rank": 34,
+      "top5_ids": [
+        "991368",
+        "171684",
+        "991367",
+        "991370",
+        "858071"
+      ]
+    },
+    {
+      "qid": "1048360",
+      "query": "what is photosynthesis what organisms perform this reaction and what is the importance of the reaction",
+      "positive_pids": [
+        "289991"
+      ],
+      "best_positive_rank": 20,
+      "top5_ids": [
+        "295617",
+        "295615",
+        "526935",
+        "106936",
+        "280302"
+      ]
+    },
+    {
+      "qid": "1097630",
+      "query": "average cost of deck around above ground pool",
+      "positive_pids": [
+        "725649"
+      ],
+      "best_positive_rank": 85,
+      "top5_ids": [
+        "88973",
+        "251300",
+        "290479",
+        "437552",
+        "437548"
+      ]
+    },
+    {
+      "qid": "283058",
+      "query": "how many employees required for fmla",
+      "positive_pids": [
+        "499891"
+      ],
+      "best_positive_rank": 10,
+      "top5_ids": [
+        "783324",
+        "566186",
+        "626014",
+        "530976",
+        "646446"
+      ]
+    },
+    {
+      "qid": "362456",
+      "query": "how to get rid of congestion in your ears",
+      "positive_pids": [
+        "224482"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "224485",
+        "224482",
+        "815396",
+        "414277",
+        "639277"
+      ]
+    },
+    {
+      "qid": "1002750",
+      "query": "where was julius caesar killed in rome",
+      "positive_pids": [
+        "943349"
+      ],
+      "best_positive_rank": 7,
+      "top5_ids": [
+        "7154",
+        "7155",
+        "857210",
+        "297265",
+        "297263"
+      ]
+    },
+    {
+      "qid": "767273",
+      "query": "what is lung aspiration",
+      "positive_pids": [
+        "965307"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "965307",
+        "361223",
+        "965311",
+        "361222",
+        "17460"
+      ]
+    },
+    {
+      "qid": "915223",
+      "query": "what type of weather is associated warm fronts",
+      "positive_pids": [
+        "526650"
+      ],
+      "best_positive_rank": 8,
+      "top5_ids": [
+        "326640",
+        "691960",
+        "526645",
+        "192238",
+        "766874"
+      ]
+    },
+    {
+      "qid": "1045185",
+      "query": "what is thatch roofing made of",
+      "positive_pids": [
+        "20124"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "20124",
+        "768403",
+        "768406",
+        "142822",
+        "20125"
+      ]
+    },
+    {
+      "qid": "1092135",
+      "query": "null pointer causes",
+      "positive_pids": [
+        "355012"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "197154",
+        "355012",
+        "835968",
+        "197152",
+        "835971"
+      ]
+    },
+    {
+      "qid": "581558",
+      "query": "what can cause you to have diarrhea",
+      "positive_pids": [
+        "382685",
+        "770361",
+        "980195"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "980195",
+        "698470",
+        "725321",
+        "694151",
+        "664304"
+      ]
+    },
+    {
+      "qid": "28216",
+      "query": "at what age do kittens get their first shots",
+      "positive_pids": [
+        "455251"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "855122",
+        "855119",
+        "455251",
+        "262903",
+        "262909"
+      ]
+    },
+    {
+      "qid": "14658",
+      "query": "ags biology cycles of life bundle",
+      "positive_pids": [
+        "686561"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "686557",
+        "686561",
+        "686559",
+        "686560",
+        "686558"
+      ]
+    },
+    {
+      "qid": "138492",
+      "query": "definition of subdural hematoma",
+      "positive_pids": [
+        "288981"
+      ],
+      "best_positive_rank": 4,
+      "top5_ids": [
+        "385294",
+        "345594",
+        "397906",
+        "288981",
+        "397907"
+      ]
+    },
+    {
+      "qid": "610041",
+      "query": "what county is naperville, il is in",
+      "positive_pids": [
+        "701010"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "701010",
+        "701004",
+        "412432",
+        "930445",
+        "210541"
+      ]
+    },
+    {
+      "qid": "988605",
+      "query": "who is the richest man of the world?",
+      "positive_pids": [
+        "62046"
+      ],
+      "best_positive_rank": 4,
+      "top5_ids": [
+        "160198",
+        "689700",
+        "697779",
+        "62046",
+        "127461"
+      ]
+    },
+    {
+      "qid": "240037",
+      "query": "how long are refrigerated eggs safe",
+      "positive_pids": [
+        "989077"
+      ],
+      "best_positive_rank": 43,
+      "top5_ids": [
+        "79856",
+        "33178",
+        "111135",
+        "9127",
+        "79853"
+      ]
+    },
+    {
+      "qid": "1070306",
+      "query": "climax literature definition",
+      "positive_pids": [
+        "97364"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "97364",
+        "817054",
+        "817051",
+        "817055",
+        "817057"
+      ]
+    },
+    {
+      "qid": "442090",
+      "query": "long term effects of taking oxycontin",
+      "positive_pids": [
+        "929765"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "929768",
+        "929765",
+        "929762",
+        "311126",
+        "311124"
+      ]
+    },
+    {
+      "qid": "900924",
+      "query": "what temp do you cook pork chops on in the oven? and for how long?",
+      "positive_pids": [
+        "84482"
+      ],
+      "best_positive_rank": 44,
+      "top5_ids": [
+        "986549",
+        "507474",
+        "507478",
+        "849732",
+        "808964"
+      ]
+    },
+    {
+      "qid": "974890",
+      "query": "where does the sciatic nerve begin",
+      "positive_pids": [
+        "129653"
+      ],
+      "best_positive_rank": 49,
+      "top5_ids": [
+        "813825",
+        "524762",
+        "404323",
+        "275202",
+        "275205"
+      ]
+    },
+    {
+      "qid": "456913",
+      "query": "most common leukemia in adults",
+      "positive_pids": [
+        "864162"
+      ],
+      "best_positive_rank": 30,
+      "top5_ids": [
+        "143329",
+        "143333",
+        "143330",
+        "143334",
+        "403130"
+      ]
+    },
+    {
+      "qid": "985304",
+      "query": "whole foods plant ba",
+      "positive_pids": [
+        "316035"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "316035",
+        "811931",
+        "98434",
+        "623911",
+        "65779"
+      ]
+    },
+    {
+      "qid": "660698",
+      "query": "what food should a diabetic eat",
+      "positive_pids": [
+        "39905"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "81559",
+        "866716",
+        "39905",
+        "586729",
+        "718898"
+      ]
+    },
+    {
+      "qid": "166089",
+      "query": "does excalibur have free parking",
+      "positive_pids": [
+        "781356"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "781356",
+        "694796",
+        "694797",
+        "963792",
+        "858540"
+      ]
+    },
+    {
+      "qid": "571926",
+      "query": "what are the names of the groups of the periodic table",
+      "positive_pids": [
+        "267828"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "176822",
+        "267828",
+        "578030",
+        "797785",
+        "779690"
+      ]
+    },
+    {
+      "qid": "271597",
+      "query": "how long to microwave an ear of corn?",
+      "positive_pids": [
+        "544192"
+      ],
+      "best_positive_rank": 6,
+      "top5_ids": [
+        "482802",
+        "688837",
+        "544189",
+        "544193",
+        "326873"
+      ]
+    },
+    {
+      "qid": "1032106",
+      "query": "what is the specific cause of acne and what occurs",
+      "positive_pids": [
+        "492784"
+      ],
+      "best_positive_rank": 12,
+      "top5_ids": [
+        "561069",
+        "34541",
+        "850679",
+        "492789",
+        "561071"
+      ]
+    },
+    {
+      "qid": "820526",
+      "query": "what is the etemology of anglo saxon",
+      "positive_pids": [
+        "255068"
+      ],
+      "best_positive_rank": 9,
+      "top5_ids": [
+        "804441",
+        "804440",
+        "255070",
+        "199536",
+        "466468"
+      ]
+    },
+    {
+      "qid": "724776",
+      "query": "what is blood sugar range",
+      "positive_pids": [
+        "6055"
+      ],
+      "best_positive_rank": 110,
+      "top5_ids": [
+        "222924",
+        "12553",
+        "868964",
+        "947354",
+        "979330"
+      ]
+    },
+    {
+      "qid": "660980",
+      "query": "what foods are good to help with hair loss in women",
+      "positive_pids": [
+        "661663"
+      ],
+      "best_positive_rank": 10,
+      "top5_ids": [
+        "75503",
+        "826759",
+        "826761",
+        "894509",
+        "209251"
+      ]
+    },
+    {
+      "qid": "853999",
+      "query": "what is the weather like in vancouver, canada",
+      "positive_pids": [
+        "293036"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "191459",
+        "293036",
+        "273528",
+        "293038",
+        "517177"
+      ]
+    },
+    {
+      "qid": "994120",
+      "query": "definition of brand equity",
+      "positive_pids": [
+        "498494"
+      ],
+      "best_positive_rank": 8,
+      "top5_ids": [
+        "498486",
+        "498491",
+        "498489",
+        "498493",
+        "498490"
+      ]
+    },
+    {
+      "qid": "16351",
+      "query": "ambien what is it used for",
+      "positive_pids": [
+        "172209"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "339480",
+        "778880",
+        "172209",
+        "249569",
+        "339487"
+      ]
+    },
+    {
+      "qid": "321510",
+      "query": "how much is alexa amazon",
+      "positive_pids": [
+        "398793"
+      ],
+      "best_positive_rank": 14,
+      "top5_ids": [
+        "943116",
+        "315002",
+        "909746",
+        "504840",
+        "504846"
+      ]
+    },
+    {
+      "qid": "1015405",
+      "query": "which of the following is unique to cardiac muscle cells?",
+      "positive_pids": [
+        "303148"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "303148",
+        "810763",
+        "810766",
+        "983297",
+        "246691"
+      ]
+    },
+    {
+      "qid": "106620",
+      "query": "cost of repainting cabinets",
+      "positive_pids": [
+        "154216"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "154216",
+        "466042",
+        "810583",
+        "219060",
+        "807155"
+      ]
+    },
+    {
+      "qid": "1080521",
+      "query": "wreck of the edmund fitzgerald song lyrics",
+      "positive_pids": [
+        "909395"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "909395",
+        "909399",
+        "909393",
+        "909397",
+        "909400"
+      ]
+    },
+    {
+      "qid": "505297",
+      "query": "sunburn with flu like symptoms",
+      "positive_pids": [
+        "797877"
+      ],
+      "best_positive_rank": 70,
+      "top5_ids": [
+        "334140",
+        "287305",
+        "701219",
+        "168517",
+        "957002"
+      ]
+    },
+    {
+      "qid": "1100608",
+      "query": "federal entity identification number",
+      "positive_pids": [
+        "325285"
+      ],
+      "best_positive_rank": 39,
+      "top5_ids": [
+        "95982",
+        "595515",
+        "595518",
+        "602985",
+        "479629"
+      ]
+    },
+    {
+      "qid": "417595",
+      "query": "is mcg the abbreviation for milligrams?",
+      "positive_pids": [
+        "290538"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "290538",
+        "290536",
+        "884209",
+        "884216",
+        "290540"
+      ]
+    },
+    {
+      "qid": "686118",
+      "query": "what is a gunnery sergeant?",
+      "positive_pids": [
+        "463187"
+      ],
+      "best_positive_rank": 2,
+      "top5_ids": [
+        "463189",
+        "463187",
+        "463186",
+        "463191",
+        "463184"
+      ]
+    },
+    {
+      "qid": "400283",
+      "query": "is a limited liability company a corporation",
+      "positive_pids": [
+        "282210"
+      ],
+      "best_positive_rank": 16,
+      "top5_ids": [
+        "42107",
+        "42102",
+        "95601",
+        "69762",
+        "708267"
+      ]
+    },
+    {
+      "qid": "104217",
+      "query": "cost of garage doors prices",
+      "positive_pids": [
+        "906162"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "97775",
+        "962835",
+        "906162",
+        "962833",
+        "962841"
+      ]
+    },
+    {
+      "qid": "527111",
+      "query": "types of cordless cutting tools",
+      "positive_pids": [
+        "81598"
+      ],
+      "best_positive_rank": 5,
+      "top5_ids": [
+        "132015",
+        "427370",
+        "593593",
+        "922579",
+        "81598"
+      ]
+    },
+    {
+      "qid": "954028",
+      "query": "when must lar be made available to public",
+      "positive_pids": [
+        "734959"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "734959",
+        "311300",
+        "645811",
+        "607433",
+        "698743"
+      ]
+    },
+    {
+      "qid": "891161",
+      "query": "what requirements must be met for a taxpayer to qualify to file as head of household",
+      "positive_pids": [
+        "42497"
+      ],
+      "best_positive_rank": 17,
+      "top5_ids": [
+        "43397",
+        "43402",
+        "42500",
+        "42501",
+        "333113"
+      ]
+    },
+    {
+      "qid": "608728",
+      "query": "what county is lodi nj in",
+      "positive_pids": [
+        "967144"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "967144",
+        "38535",
+        "813",
+        "816",
+        "38533"
+      ]
+    },
+    {
+      "qid": "996599",
+      "query": "where parkland fla.",
+      "positive_pids": [
+        "143101"
+      ],
+      "best_positive_rank": 3,
+      "top5_ids": [
+        "143108",
+        "143102",
+        "143101",
+        "143354",
+        "143352"
+      ]
+    },
+    {
+      "qid": "812953",
+      "query": "what is the cost of tsa precheck program",
+      "positive_pids": [
+        "220866"
+      ],
+      "best_positive_rank": 7,
+      "top5_ids": [
+        "220869",
+        "760032",
+        "962649",
+        "609566",
+        "34987"
+      ]
+    },
+    {
+      "qid": "718344",
+      "query": "what is another name for the testes",
+      "positive_pids": [
+        "377796"
+      ],
+      "best_positive_rank": 4,
+      "top5_ids": [
+        "734646",
+        "283843",
+        "377798",
+        "377796",
+        "364142"
+      ]
+    },
+    {
+      "qid": "243712",
+      "query": "how long cook tortilla chips",
+      "positive_pids": [
+        "545561"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "545561",
+        "656010",
+        "656007",
+        "505742",
+        "476376"
+      ]
+    },
+    {
+      "qid": "1056066",
+      "query": "what is elastic fiber",
+      "positive_pids": [
+        "318592"
+      ],
+      "best_positive_rank": 6,
+      "top5_ids": [
+        "318596",
+        "318594",
+        "967640",
+        "318595",
+        "141751"
+      ]
+    },
+    {
+      "qid": "628123",
+      "query": "what does a auto vin classify",
+      "positive_pids": [
+        "450426"
+      ],
+      "best_positive_rank": 22,
+      "top5_ids": [
+        "223015",
+        "4213",
+        "450424",
+        "369459",
+        "357363"
+      ]
+    },
+    {
+      "qid": "199294",
+      "query": "haw long doses french bulldog be in heat",
+      "positive_pids": [
+        "787624"
+      ],
+      "best_positive_rank": 10,
+      "top5_ids": [
+        "582011",
+        "270284",
+        "787623",
+        "519073",
+        "561886"
+      ]
+    },
+    {
+      "qid": "63793",
+      "query": "can aleve be used for swollen skin",
+      "positive_pids": [
+        "88098"
+      ],
+      "best_positive_rank": 1922,
+      "top5_ids": [
+        "203939",
+        "862749",
+        "862748",
+        "706183",
+        "78957"
+      ]
+    },
+    {
+      "qid": "965125",
+      "query": "where are channel islands",
+      "positive_pids": [
+        "13275"
+      ],
+      "best_positive_rank": 1,
+      "top5_ids": [
+        "13275",
+        "983309",
+        "13277",
+        "13274",
+        "13276"
+      ]
+    },
+    {
+      "qid": "1101034",
+      "query": "drain pipe replacement cost",
+      "positive_pids": [
+        "352103"
+      ],
+      "best_positive_rank": 12,
+      "top5_ids": [
+        "7328",
+        "937640",
+        "352109",
+        "366662",
+        "7324"
+      ]
+    },
+    {
+      "qid": "738946",
+      "query": "what is deviation value",
+      "positive_pids": [
+        "588939"
+      ],
+      "best_positive_rank": 10,
+      "top5_ids": [
+        "715753",
+        "421398",
+        "715750",
+        "715755",
+        "314359"
+      ]
+    },
+    {
+      "qid": "936421",
+      "query": "when can i start taking pregnancy tests",
+      "positive_pids": [
+        "249469",
+        "760199"
+      ],
+      "best_positive_rank": 12,
+      "top5_ids": [
+        "657551",
+        "215391",
+        "316270",
+        "292735",
+        "700979"
+      ]
+    },
+    {
+      "qid": "521558",
+      "query": "time zones for tennessee",
+      "positive_pids": [
+        "45329"
+      ],
+      "best_positive_rank": 7,
+      "top5_ids": [
+        "45328",
+        "45327",
+        "45330",
+        "45323",
+        "45326"
+      ]
+    },
+    {
+      "qid": "499906",
+      "query": "society biology definition",
+      "positive_pids": [
+        "794616"
+      ],
+      "best_positive_rank": 14,
+      "top5_ids": [
+        "145700",
+        "203259",
+        "937284",
+        "711450",
+        "937293"
+      ]
+    }
+  ]
+}

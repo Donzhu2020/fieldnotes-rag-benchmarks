@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fieldnotes · Local Semantic Search</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+ <a class="brand" href="/" aria-label="Fieldnotes home"><span class="brand-mark">f.</span>fieldnotes<span class="brand-dot">®</span></a>
+ <div class="sidebar-label">WORKSPACE / 01</div>
+ <div class="nav-active"><span>⌕</span> Semantic search <span class="nav-number">01</span></div>
+ <div class="collection"><div class="sidebar-label">COLLECTION</div><span class="folder-icon">▤</span><h2>MS MARCO</h2><p>English web passages · Passage v1</p><div class="collection-line"></div><div class="collection-row"><span>Local corpus</span><b>1,000,000 passages</b></div><div class="collection-row"><span>Searchable</span><b id="sidebar-count">Connecting</b></div></div>
+ <div class="sidebar-bottom"><span class="status-dot"></span> Running locally <span class="local-label">LOCAL</span><p>Bring relevant knowledge to the surface.</p></div>
+</aside>
+<main>
+ <header><span>Workspace <span class="breadcrumb">/</span> Semantic search</span><span class="local-pill"><span class="status-dot"></span> Local laboratory</span></header>
+ <div class="workspace">
+ <section class="intro"><div class="eyebrow"><span></span> A LITTLE LESS SEARCHING. A LITTLE MORE FINDING.</div><h1>A world of words.<br><span class="serif-accent">A thread worth finding.</span></h1><p class="intro-copy">Ask a question. Find English passages that share its meaning.<br>Every search scans every vector, right here in memory.</p><div class="edition">FIELDNOTES<br><b>SEARCH STUDY — 001</b></div></section>
+ <form id="search-form" class="search-box"><label for="query" class="search-label">What would you like to explore?</label><textarea id="query" name="query" rows="2" maxlength="1000" placeholder="Try: What was the Manhattan Project?" required></textarea><div class="search-footer"><span>Queries are sent to Build Space for embedding</span><button id="submit" type="submit">Search <span>↗</span></button></div></form>
+ <div class="suggestions"><span>TRY A QUESTION</span><button type="button" data-query="Who was Antonin Dvorak?">Who was Dvorak? <span>↗</span></button><button type="button" data-query="What was the Manhattan Project?">The Manhattan Project <span>↗</span></button><button type="button" data-query="How do you roast squash seeds?">Roasting squash seeds <span>↗</span></button></div>
+ <section class="metrics" aria-label="Search configuration"><div><span>Searchable passages</span><strong id="count">—</strong><small>English passages</small></div><div><span>Embedding model</span><strong class="model-name">text-embedding-3-small</strong><small>OpenAI · <span id="dimensions">512</span> dimensions</small></div><div><span>Vectors in memory</span><strong id="memory">—</strong><small id="vector-format">Float32 · Fully loaded</small></div><div><span>Retrieval method</span><strong class="method-name">Brute force <span>↗</span></strong><small>Cosine similarity · No index</small></div></section>
+ <section id="output" class="output" aria-live="polite" aria-busy="false">
+  <div class="section-heading"><h2 id="result-title">Ready when you are</h2><label for="result-count">Up to <select id="result-count"><option value="5">5</option><option value="10">10</option><option value="20">20</option></select> results</label></div>
+  <div id="notice" class="notice" hidden></div>
+  <div id="results"><div class="empty"><div class="empty-art"><span class="art-line"></span><span class="art-circle"></span><span class="art-star">✳</span><span class="art-dot"></span></div><h3>Every good question deserves a source.</h3><p>Search for the most relevant original passages.<br>Evidence to read, without a generated answer.</p><span class="empty-tag" id="corpus-scope">Connecting to the local corpus…</span></div></div>
+ </section>
+ <footer><span>FIELDNOTES <span class="footer-divider">/</span> Keep search simple.</span><span>MS MARCO · ENGLISH CORPUS</span></footer>
+ </div>
+</main>
+</body></html>

@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/
+*.npy
+*.npz
+*.log
+*budget*.json
+*billing*.json
+research/
+adhd_demo/
+release/

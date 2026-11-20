@@ -1,0 +1,743 @@
+{
+  "method": "offline exact scans; saved query vectors; truncated vectors are re-normalized; float16 is simulated by rounding vectors to float16, converting back to float32 for scoring, and re-normalizing",
+  "query_set_size": 8,
+  "query_set_limits": "Eight manually labeled local smoke cases (four in, four out); not a judged MS MARCO test set and not a general accuracy estimate.",
+  "results": {
+    "1536d_float32": {
+      "dimensions": 1536,
+      "stored_dtype": "float32",
+      "matrix_bytes": 6144000000,
+      "elapsed_ms_for_eight_queries": 13557.2,
+      "queries": [
+        {
+          "query": "What was the Manhattan Project?",
+          "label": "in",
+          "top_ids": [
+            "3",
+            "7",
+            "8",
+            "2",
+            "749027"
+          ],
+          "top_scores": [
+            0.745732,
+            0.734258,
+            0.700689,
+            0.672109,
+            0.628784
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "Who was Antonin Dvorak?",
+          "label": "in",
+          "top_ids": [
+            "104",
+            "100",
+            "107",
+            "103",
+            "108"
+          ],
+          "top_scores": [
+            0.804434,
+            0.795574,
+            0.791896,
+            0.780219,
+            0.752407
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "What is lactose made of?",
+          "label": "in",
+          "top_ids": [
+            "190201",
+            "315779",
+            "22001",
+            "22000",
+            "315773"
+          ],
+          "top_scores": [
+            0.679596,
+            0.669474,
+            0.66433,
+            0.658322,
+            0.651581
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "How do you roast squash seeds?",
+          "label": "in",
+          "top_ids": [
+            "35000",
+            "253783",
+            "35003",
+            "35002",
+            "858995"
+          ],
+          "top_scores": [
+            0.789821,
+            0.763104,
+            0.704273,
+            0.666808,
+            0.648321
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "How to deal with burnout",
+          "label": "out",
+          "top_ids": [
+            "710448",
+            "710449",
+            "946342",
+            "946336",
+            "399412"
+          ],
+          "top_scores": [
+            0.578756,
+            0.555956,
+            0.548442,
+            0.535776,
+            0.529921
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "What is the weather in Boston right now?",
+          "label": "out",
+          "top_ids": [
+            "127770",
+            "127773",
+            "127772",
+            "127774",
+            "127766"
+          ],
+          "top_scores": [
+            0.667807,
+            0.663956,
+            0.662743,
+            0.660684,
+            0.6588
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "What is the plot of the fictional novel The Glass Orchard of Zynthera?",
+          "label": "out",
+          "top_ids": [
+            "598401",
+            "14162",
+            "685397",
+            "350506",
+            "918225"
+          ],
+          "top_scores": [
+            0.421631,
+            0.403957,
+            0.391613,
+            0.377434,
+            0.369761
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        },
+        {
+          "query": "How do I install the fictional Flarnix 9000 quantum toaster?",
+          "label": "out",
+          "top_ids": [
+            "888584",
+            "888577",
+            "888586",
+            "649106",
+            "732163"
+          ],
+          "top_scores": [
+            0.398914,
+            0.398049,
+            0.38938,
+            0.374426,
+            0.373062
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": null,
+          "top1_matches_1536_float32": null
+        }
+      ]
+    },
+    "1536d_float16_values": {
+      "dimensions": 1536,
+      "stored_dtype": "float16",
+      "matrix_bytes": 3072000000,
+      "elapsed_ms_for_eight_queries": 15823.6,
+      "queries": [
+        {
+          "query": "What was the Manhattan Project?",
+          "label": "in",
+          "top_ids": [
+            "3",
+            "7",
+            "8",
+            "2",
+            "749027"
+          ],
+          "top_scores": [
+            0.745732,
+            0.734258,
+            0.700679,
+            0.672109,
+            0.628784
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "Who was Antonin Dvorak?",
+          "label": "in",
+          "top_ids": [
+            "104",
+            "100",
+            "107",
+            "103",
+            "108"
+          ],
+          "top_scores": [
+            0.804429,
+            0.795577,
+            0.791896,
+            0.780219,
+            0.752407
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is lactose made of?",
+          "label": "in",
+          "top_ids": [
+            "190201",
+            "315779",
+            "22001",
+            "22000",
+            "315773"
+          ],
+          "top_scores": [
+            0.679599,
+            0.669474,
+            0.66433,
+            0.658322,
+            0.651578
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "How do you roast squash seeds?",
+          "label": "in",
+          "top_ids": [
+            "35000",
+            "253783",
+            "35003",
+            "35002",
+            "858995"
+          ],
+          "top_scores": [
+            0.789818,
+            0.763102,
+            0.704274,
+            0.666806,
+            0.648321
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "How to deal with burnout",
+          "label": "out",
+          "top_ids": [
+            "710448",
+            "710449",
+            "946342",
+            "946336",
+            "399412"
+          ],
+          "top_scores": [
+            0.578769,
+            0.555956,
+            0.548442,
+            0.535776,
+            0.529921
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is the weather in Boston right now?",
+          "label": "out",
+          "top_ids": [
+            "127770",
+            "127773",
+            "127772",
+            "127774",
+            "127766"
+          ],
+          "top_scores": [
+            0.6678,
+            0.663949,
+            0.662736,
+            0.660678,
+            0.658795
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is the plot of the fictional novel The Glass Orchard of Zynthera?",
+          "label": "out",
+          "top_ids": [
+            "598401",
+            "14162",
+            "685397",
+            "350506",
+            "918225"
+          ],
+          "top_scores": [
+            0.421632,
+            0.403951,
+            0.391609,
+            0.377428,
+            0.369754
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "How do I install the fictional Flarnix 9000 quantum toaster?",
+          "label": "out",
+          "top_ids": [
+            "888584",
+            "888577",
+            "888586",
+            "649106",
+            "732163"
+          ],
+          "top_scores": [
+            0.398917,
+            0.398047,
+            0.389368,
+            0.374423,
+            0.373059
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        }
+      ]
+    },
+    "512d_float32": {
+      "dimensions": 512,
+      "stored_dtype": "float32",
+      "matrix_bytes": 2048000000,
+      "elapsed_ms_for_eight_queries": 12876.3,
+      "queries": [
+        {
+          "query": "What was the Manhattan Project?",
+          "label": "in",
+          "top_ids": [
+            "3",
+            "7",
+            "8",
+            "2",
+            "749027"
+          ],
+          "top_scores": [
+            0.761381,
+            0.758449,
+            0.708984,
+            0.680327,
+            0.645653
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "Who was Antonin Dvorak?",
+          "label": "in",
+          "top_ids": [
+            "107",
+            "104",
+            "100",
+            "103",
+            "108"
+          ],
+          "top_scores": [
+            0.819448,
+            0.81676,
+            0.80291,
+            0.793739,
+            0.764821
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": false
+        },
+        {
+          "query": "What is lactose made of?",
+          "label": "in",
+          "top_ids": [
+            "315779",
+            "190201",
+            "22001",
+            "22000",
+            "315773"
+          ],
+          "top_scores": [
+            0.650305,
+            0.649863,
+            0.648447,
+            0.643827,
+            0.634862
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": false
+        },
+        {
+          "query": "How do you roast squash seeds?",
+          "label": "in",
+          "top_ids": [
+            "35000",
+            "253783",
+            "35003",
+            "35002",
+            "858995"
+          ],
+          "top_scores": [
+            0.801622,
+            0.775721,
+            0.722768,
+            0.697666,
+            0.687268
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "How to deal with burnout",
+          "label": "out",
+          "top_ids": [
+            "710448",
+            "946342",
+            "710449",
+            "399412",
+            "946336"
+          ],
+          "top_scores": [
+            0.616133,
+            0.5956,
+            0.578629,
+            0.547007,
+            0.545045
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is the weather in Boston right now?",
+          "label": "out",
+          "top_ids": [
+            "127770",
+            "127773",
+            "127774",
+            "127772",
+            "127766"
+          ],
+          "top_scores": [
+            0.677732,
+            0.671236,
+            0.6701,
+            0.663937,
+            0.660891
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is the plot of the fictional novel The Glass Orchard of Zynthera?",
+          "label": "out",
+          "top_ids": [
+            "14162",
+            "598401",
+            "274587",
+            "350506",
+            "464763"
+          ],
+          "top_scores": [
+            0.455339,
+            0.452083,
+            0.428708,
+            0.426848,
+            0.410152
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 3,
+          "top1_matches_1536_float32": false
+        },
+        {
+          "query": "How do I install the fictional Flarnix 9000 quantum toaster?",
+          "label": "out",
+          "top_ids": [
+            "732163",
+            "978876",
+            "639814",
+            "905542",
+            "888577"
+          ],
+          "top_scores": [
+            0.420664,
+            0.414187,
+            0.411006,
+            0.409376,
+            0.408939
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 2,
+          "top1_matches_1536_float32": false
+        }
+      ]
+    },
+    "512d_float16_values": {
+      "dimensions": 512,
+      "stored_dtype": "float16",
+      "matrix_bytes": 1024000000,
+      "elapsed_ms_for_eight_queries": 14285.1,
+      "queries": [
+        {
+          "query": "What was the Manhattan Project?",
+          "label": "in",
+          "top_ids": [
+            "3",
+            "7",
+            "8",
+            "2",
+            "749027"
+          ],
+          "top_scores": [
+            0.761381,
+            0.758449,
+            0.70897,
+            0.680327,
+            0.645653
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "Who was Antonin Dvorak?",
+          "label": "in",
+          "top_ids": [
+            "107",
+            "104",
+            "100",
+            "103",
+            "108"
+          ],
+          "top_scores": [
+            0.819448,
+            0.816754,
+            0.802913,
+            0.793739,
+            0.764821
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": false
+        },
+        {
+          "query": "What is lactose made of?",
+          "label": "in",
+          "top_ids": [
+            "315779",
+            "190201",
+            "22001",
+            "22000",
+            "315773"
+          ],
+          "top_scores": [
+            0.650304,
+            0.649877,
+            0.648447,
+            0.643827,
+            0.634856
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": false
+        },
+        {
+          "query": "How do you roast squash seeds?",
+          "label": "in",
+          "top_ids": [
+            "35000",
+            "253783",
+            "35003",
+            "35002",
+            "858995"
+          ],
+          "top_scores": [
+            0.801612,
+            0.775716,
+            0.722761,
+            0.697662,
+            0.687268
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": true,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "How to deal with burnout",
+          "label": "out",
+          "top_ids": [
+            "710448",
+            "946342",
+            "710449",
+            "399412",
+            "946336"
+          ],
+          "top_scores": [
+            0.616162,
+            0.5956,
+            0.578629,
+            0.547007,
+            0.545045
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is the weather in Boston right now?",
+          "label": "out",
+          "top_ids": [
+            "127770",
+            "127773",
+            "127774",
+            "127772",
+            "127766"
+          ],
+          "top_scores": [
+            0.677731,
+            0.671235,
+            0.670098,
+            0.663933,
+            0.660894
+          ],
+          "accepted_at_existing_0_60_cutoff": true,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 5,
+          "top1_matches_1536_float32": true
+        },
+        {
+          "query": "What is the plot of the fictional novel The Glass Orchard of Zynthera?",
+          "label": "out",
+          "top_ids": [
+            "14162",
+            "598401",
+            "274587",
+            "350506",
+            "464763"
+          ],
+          "top_scores": [
+            0.455328,
+            0.452083,
+            0.428704,
+            0.42684,
+            0.410147
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 3,
+          "top1_matches_1536_float32": false
+        },
+        {
+          "query": "How do I install the fictional Flarnix 9000 quantum toaster?",
+          "label": "out",
+          "top_ids": [
+            "732163",
+            "978876",
+            "639814",
+            "905542",
+            "888577"
+          ],
+          "top_scores": [
+            0.420662,
+            0.414183,
+            0.41101,
+            0.409373,
+            0.408938
+          ],
+          "accepted_at_existing_0_60_cutoff": false,
+          "known_passage_in_top5": null,
+          "top5_overlap_with_1536_float32": 2,
+          "top1_matches_1536_float32": false
+        }
+      ]
+    }
+  }
+}
